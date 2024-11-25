@@ -42,6 +42,18 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
+app.get('/form', (req, res) => {
+    // Log message to the server's console
+    console.log("Hello, world - server!");
+    res.render('form');
+});
+
+app.get('/community', (req, res) => {
+    // Log message to the server's console
+    console.log("Hello, world - server!");
+    res.render('community');
+});
+
 
 
 
